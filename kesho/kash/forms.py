@@ -7,7 +7,7 @@ class AddBaby(ModelForm):
         model = Babe
         fields = '__all__'
 
-class AddPayment(ModelForm):
+class AddPaymentform(ModelForm):
     class Meta:
         model = Payment
         fields = '__all__'

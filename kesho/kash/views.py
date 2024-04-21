@@ -26,7 +26,6 @@ def jumper(request):
 def procurement(request):
     return render(request, 'kash/procurement.html')  
 
-
 def AddBabe(request):
     #addedbabe = Babe.objects.get(id=pk)
     getbabesform = AddBaby()
@@ -34,5 +33,5 @@ def AddBabe(request):
 
 
 def AddPayment(request):
-    getpaymentform = AddPayment()
+    getpaymentform = AddPaymentform()
     return render(request, 'kash/payment.html', {'getpaymentform': getpaymentform})      
